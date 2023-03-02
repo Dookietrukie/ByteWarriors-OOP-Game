@@ -4,16 +4,23 @@ body {
 }
 
 #board {
-    background-color: green;
+    background-color: #E0F2F1;
     height: 100vh;
     position: relative;
 }
 
 #player {
-    background-color: fuchsia;
+    background-color: #B7D7C6;
     height: 10vh;
     width: 5vw;
     position: absolute;
     bottom: 0;
     left: 0vw;
+}
+
+.obstacle {
+    background-color: #F9CC9D;
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
 }
