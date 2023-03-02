@@ -90,7 +90,7 @@ class Obstacle {
         this.positionY = this.positionY - 0.25;
         this.obstacleElm.style.bottom = this.positionY + 'vh';
 
-        if(this.positionY <= 0) {
+        if (this.positionY <= 0) {
             this.deleteObstacle(this);
         }
     }

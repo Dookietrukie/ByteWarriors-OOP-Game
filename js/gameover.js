@@ -1,9 +1,4 @@
-const gameOverScreen = document.querySelector('.game-over');
-
-function showGameOver() {
-  gameOverScreen.style.display = 'flex';
-}
-
+// Get the button element.
 const playAgainButton = gameOverScreen.querySelector('.button');
 
 playAgainButton.addEventListener('click', function() {
